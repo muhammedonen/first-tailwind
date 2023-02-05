@@ -11,29 +11,66 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand&family=Source+Sans+Pro:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <!--FontAwesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="bg-mainTheme">
     <!--Header Section-->
     <header class="bg-black py-12 text-mainLight font-quicsand uppercase">
       <div class="container flex items-center justify-between space-x-16">
-        <a href="" class="text-6xl font-sansPro text-btnText">FirstT</a>
+        <a
+          href=""
+          class="text-6xl font-sansPro text-btnText text-transparent bg-gradient-to-tr bg-clip-text from-teal-600 to-teal-50 shadow-2xl"
+          >FirstT</a
+        >
         <nav class="flex justify-between flex-1">
+          <!--Menu-->
           <div class="flex items-center text-lg space-x-8">
-            <a href="" class="hover:text-hoverText transation duration-300"
+            <a href="" class="hover:text-hoverTeal transation duration-300"
               >Home</a
             >
-            <a href="" class="hover:text-hoverText transation duration-300"
+            <a href="" class="hover:text-hoverTeal transation duration-300"
               >Project</a
             >
-            <a href="" class="hover:text-hoverText transation duration-300"
+            <a href="" class="hover:text-hoverTeal transation duration-300"
               >Galeri</a
             >
-            <a href="" class="hover:text-hoverText transation duration-300"
+            <a href="" class="hover:text-hoverTeal transation duration-300"
               >Home</a
             >
-            <a href="" class="hover:text-hoverText transation duration-300"
+            <a href="" class="hover:text-hoverTeal transation duration-300"
               >Home</a
             >
+          </div>
+          <!--Login Area-->
+          <div class="flex space-x-8">
+            <!--Search Area-->
+            <form action="">
+              <div class="group border-r-2 px-4 mx-4 py-1 border-mainLight">
+                <input
+                  type="text"
+                  class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-mainLight focus:outline-none w-44 transition duration-300"
+                />
+                <button class="-ml-4 group-hover:ml-0 transition duration-300">
+                  <i class="fas fa-search group-hover:text-hoverTeal"></i>
+                </button>
+              </div>
+            </form>
+            <!--sİGNuP aREA-->
+            <div class="flex items-center space-x-8 text-lg">
+              <a href="#">Login</a>
+              <a
+                href="#"
+                class="bg-mainBtn1 px-3 hover:text-hoverTeal transition duration-500 rounded-sm cursor-pointer"
+                >Sign Up</a
+              >
+            </div>
           </div>
         </nav>
       </div>
